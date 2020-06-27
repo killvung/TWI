@@ -5,7 +5,12 @@ import getTweets from './controllers/getTweets.ts';
 const router = new Router();
 
 router
-    .get('/', (context) => { context.response.body = 'Hello World' })
+    .get('/', async (context) => {
+        await context.send({
+            root: `${Deno.cwd()}/frontend/build`,
+            index: "index.html",
+        });
+    })
     .get("/api/killvung", getTweets)
 
 export default router;
