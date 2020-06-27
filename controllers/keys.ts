@@ -3,7 +3,7 @@ import {
     CONSUMER_API_SECRET,
     ACCESS_TOKEN,
     ACCESS_TOKEN_SECRET
-} from './config.ts';
+} from '../config.ts';
 
 interface TwitterConfig {
     consumerApiKey: string,
