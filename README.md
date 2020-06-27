@@ -1,5 +1,5 @@
 # TWI
-An application to experiment DROM stack. DORM stack stands for:
+An application to experiment DORM stack. DORM stack stands for:
 
 D - Deno 
 O - Oak
