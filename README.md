@@ -2,8 +2,11 @@
 An application to experiment DORM stack. DORM stack stands for:
 
 D - Deno 
+
 O - Oak
+
 R - React
+
 M - MongoDB 
 
 # Motivation
