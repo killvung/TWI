@@ -1,4 +1,4 @@
-# ?
+# TWI
 An application to experiment DROM stack. DORM stack stands for:
 
 D - Deno 
@@ -6,8 +6,8 @@ O - Oak
 R - React
 M - MongoDB 
 
-# Why
-The future is near, with Deno released v1.0 recently, more and more people will start getting into Deno, so I don't see why didn't I get my hand dirty on it.
+# Motivation
+The future is near, with Deno released v1.0 recently, more and more people will start getting into Deno, so I don't see why didn't I get my hand dirty on it to build a quick application with it.
 
 # Deno?
 Deno is an JavaScript runtime environment authored by the creator of NodeJS Ryan Dahl, motivated by his [regrets with NodeJS](https://www.youtube.com/watch?v=M3BM9TB-8yA). From his vision, I can see how Deno runtime would be better than NodeJS for future development.
