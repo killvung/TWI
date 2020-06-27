@@ -7,7 +7,7 @@ app.use(async (context, next) => {
     try {
         await next();
     } catch (_) {
-        context.throw(500, 'Oak sever error')
+        context.throw(500, 'Oak Server Error')
     }
 });
 app.use(router.routes());

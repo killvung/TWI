@@ -3,16 +3,23 @@ default:
 	@echo "Please use any of the commands defined in makefile ;-)"
 
 start: 
-	pm2 start server.ts --name="deno application" --interpreter="deno" --interpreter-args="run --allow-read --allow-env --allow-net"
+	make build
+	pm2 start server.ts --name="Deno application" --interpreter="denon" --interpreter-args="run --allow-read --allow-env --allow-net"
 
 restart:
-	pm2 restart "deno application"
+	pm2 restart "Deno application"
+
+stop:
+	pm2 stop "Deno application"
 
 delete:
-	pm2 delete "deno application"
+	pm2 delete "Deno application"
 
 deploy:
 	flyctl deploy
 
 logs:
-	flyctl deploy
+	flyctl --app twi logs
+
+build:
+	npm run build --prefix frontend/
