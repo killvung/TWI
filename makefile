@@ -23,3 +23,6 @@ logs:
 
 build:
 	npm run build --prefix frontend/
+
+open:
+	@flyctl open /
